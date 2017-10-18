@@ -12,13 +12,15 @@
     <h1>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			</h1>
-
-</div>
-   
+</div>   
     </div>
       <div class="parallax"><?php echo get_the_post_thumbnail( $post_id, 'full' ); ?></div>
     </div>
       <!-- end parallax hero -->
+
+
+
+
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 		<!-- article -->
@@ -51,31 +53,7 @@
        
 			<?php the_content(); // Dynamic Content ?>
       </div>
-      <div   class="col m4 s12">  
-<div style="padding: 1em;"  class="cv-post center-align blue">
-         <img style="height: 120px; widht: 120px;" src="http://patlab.cl/wp-content/uploads/2017/09/plabarca.jpg" alt="" class="circle">
-         <h5 class="white-text">Patricio Labarca</h5>
-         <span>Psicólogo en Santiago</span>
-         <p class="white-text">Me especializo en psicología clínica para adultos y adolescentes. Como también en tratamiento adicciones y peritajes. </p>
-</div>
-<?php get_sidebar() ?>
-</div>
-
-</div>
-   
-
-  </div>
- 
-
-
-
-
 <div class="container">
-
-
-
-
-
 
 			<!-- post details -->
 			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
@@ -111,11 +89,33 @@
 
 	<?php endif; ?>
 
+</div>
+
+
+      <div   class="col m4 s12">  
+<div style="padding: 1em;"  class="cv-post center-align blue">
+         <img style="height: 120px; widht: 120px;" src="http://patlab.cl/wp-content/uploads/2017/09/plabarca.jpg" alt="" class="circle">
+         <h5 class="white-text">Patricio Labarca</h5>
+         <span>Psicólogo en Santiago</span>
+         <p class="white-text">Me especializo en psicología clínica para adultos y adolescentes. Como también en tratamiento adicciones y peritajes. </p>
+</div>
+<?php get_sidebar() ?>
+</div>
+
+</div>
+   
+
+  </div>
+ 
+
+
+
+
+
 	</section>
 	<!-- /section -->
 	</main>
 
-</div>
 
 <script type="text/javascript">
    $(document).ready(function(){
