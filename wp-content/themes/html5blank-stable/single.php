@@ -4,6 +4,21 @@
 	<!-- section -->
 	<section>
 
+			
+<!-- parallax hero -->
+<div class="parallax-container">
+<div class="container center-align">
+<div class="banner-text">
+    <h1>
+				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+			</h1>
+
+</div>
+   
+    </div>
+      <div class="parallax"><?php echo get_the_post_thumbnail( $post_id, 'full' ); ?></div>
+    </div>
+      <!-- end parallax hero -->
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 		<!-- article -->
@@ -12,19 +27,16 @@
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-<div class="parallax-container" style="z-index: 1; height: 200px;">
-      <div class="parallax"><?php the_post_thumbnail(); // Fullsize image for the single post ?></div>
-    </div>
+
 				
 				</a>
+
 			<?php endif; ?>
 
 
 
           
 			<!-- /post thumbnail -->
-
-			
 
 
 
@@ -104,12 +116,11 @@
 	</main>
 
 </div>
-<script type="text/javascript">
 
- $(document).ready(function(){
+<script type="text/javascript">
+   $(document).ready(function(){
       $('.parallax').parallax();
     });
-        </script>
-
+</script>
 
 <?php get_footer(); ?>

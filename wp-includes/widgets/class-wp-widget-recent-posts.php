@@ -79,13 +79,26 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		<?php if ( $title ) {
 			echo $args['before_title'] . $title . $args['after_title'];
 		} ?>
-		<ul>
+		<ul class="collection blue-grey" >
 		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
-			<li>
-				<a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a>
-			<?php if ( $show_date ) : ?>
+			<li class="blue-grey collection-item avatar">
+<?php echo get_the_post_thumbnail( $post_id, 'thumbnail', array( 'class' => 'circle' ) ); ?>				
+<span class="title"><a class="white-text" href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a></span>
+			
+<p class="blue-grey-text text-lighten-4"> <?php 
+$categories = get_the_category($post_id);
+ 
+if ( ! empty( $categories ) ) {
+    echo esc_html( $categories[0]->name );   
+}
+
+?>
+</p>
+<?php if ( $show_date ) : ?>
 				<span class="post-date"><?php echo get_the_date(); ?></span>
 			<?php endif; ?>
+
+<a href="<?php the_permalink(); ?>" class="secondary-content"><i class="blue-text material-icons">grade</i></a>
 			</li>
 		<?php endwhile; ?>
 		</ul>
