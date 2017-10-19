@@ -44,45 +44,47 @@
 </div>
 <!-- card 1 -->
 <div class="row">
+<a href="psicologo-clinico/">
 <div class="col s12 m4 ">
       <div class="hoverable card">
         <div class="card-image">
           <img  src="http://patlab.cl/wp-content/uploads/2017/10/descarga-1-250x141.png" alt="psicoterapia en santiago">
           <span class="card-title">Psicólogo clínico</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          <a href="psicologo-clinico/" class="btn-floating halfway-fab waves-effect waves-light teal"><i class="material-icons">chevron_right</i></a>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          <p>¿Busca un psicólogo en Santiago? Atiendo casi todos los días y mi consulta está a pasos del Metro los leones. Agende una visita a mi consulta.</p>
         </div>
-      </div>
+      </div></a>
     </div>    
     <!-- card 2 -->
 <div class="col s12 m4">
+<a href="psicologo-en-adicciones/">
       <div class="hoverable card">
         <div class="card-image">
           <img src="http://patlab.cl/wp-content/uploads/2017/08/ludopatia_0-300x200.jpg" alt="psicólogo en adicciones">
           <span class="card-title">Especialista en adicciones</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          <a href="psicologo-en-adicciones/"class="btn-floating halfway-fab waves-effect waves-light teal"><i class="material-icons">chevron_right</i></a>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          <p>¿Busca a un especialista en adicciones? Mi experiencia en tratamiento de adicción es muy completa. Agende una visita a mi consulta.</p>
         </div>
-      </div>
+      </div></a>
     </div>    
     
     <!-- card 3 -->
 <div class="col s12 m4">
-      <div class="hoverable card">
+      <a href="perito-psicologo/"> <div class="hoverable card">
         <div class="card-image">
           <img src="http://patlab.cl/wp-content/uploads/2017/10/descarga-2-250x83.png" alt="perito psicólogo">
-          <span class="card-title">Card Title</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          <span class="card-title">Perito psicólogo</span>
+          <a href="perito-psicologo/" class="btn-floating halfway-fab waves-effect waves-light teal"><i class="material-icons">chevron_right</i></a>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          <p>¿Necesita un peritaje-psicológico? Mi trabajo como perito es confiable, rápido y con informes de peso científico. Agende una visita a mi consulta.</p>
         </div>
-      </div>
-    </div>    
+      </div> 
+    </div>    </a>
 
 
 </div> 

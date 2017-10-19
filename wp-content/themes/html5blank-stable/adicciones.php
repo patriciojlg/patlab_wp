@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: CV
+Template Name:  adicciones
 */
 ?>
 
@@ -24,23 +24,43 @@ Template Name: CV
 <div class="parallax-container">
 <div class="container center-align">
 <div class="banner-text">
-    <h1 class="main-h1">Contácte a un perito psicólogo</h1>
+    <h1 class="main-h1">Contácte a un especialista en adicciones</h1>
  <a class="margin-top3 waves-effect waves-light light-green accent-4 btn"><i class="material-icons right">details</i>Ver más</a>
 </div>
    
     </div>
-      <div class="parallax"><img src="images/peritaje.jpg"> "></div>
+      <div class="parallax"><img src="images/adicciones.jpg"> "></div>
     </div>
       <!-- end parallax hero -->
 
-
+<!-- profile banner -->
+<div class="blue-grey">
+    <div class=" white-text container center-align">
+    <div class="row">
+         <div class="margin-top3 col s12 m5">
+             <img style="max-height: 270px;" class="circle meidum responsive-img" src="images/patlab.jpg">
+        </div>
+        <div class="left-align col s12 m7">
+            <h2 class="thin">Sobre mí</h2>
+            <p class="flow-text">Hola soy Patricio Labarca, Psicólogo. 
+            En esta sección de mi sitio web doy a conocer los servicios que presto en cuanto a tratamiento de adicciones. Puedes revisar los detalles y agendar una hora conmigo. 
+            </p>
+              <button class="btn blue-grey lighten-2 waves-effect waves-light" type="submit" name="action">Ver perfil
+    <i class="material-icons right">send</i>
+  </button>
+        </div>
+       
+    </div>
+    </div>
+</div>
   
+  <!-- end profile banner -->
 <!-- services -->
-   <div class="blue-grey lighten-5">
+   <div class="white">
     <div class="container center-align">
 <div class="banner-text">
-    <h2>Servicio de perito psicólogo</h2>
-    <h5>Con características que marcan la diferencia</h5>
+    <h2 class="thin blue-text text-darken-4">Psicólogo especialista en adicciones</h2>
+    <h5 class="thin blue-grey-text text-darken-4">En  Santiago y Providencia</h5>
 </div>
 <!-- ROW -->
 <div class="row">
@@ -50,13 +70,15 @@ Template Name: CV
 <div class="col s12 m4 ">
       <div class="card">
         <div class="card-image cyan lighten-4">
-         <i class="large marginer material-icons">insert_chart</i>
+            <i class="large marginer material-icons">star</i>
+           
+        
           
-          <a class="btn-floating halfway-fab waves-effect waves-light cyan lighten-1"><i class="material-icons">insert_chart</i></a>
+          <a class="btn-floating halfway-fab waves-effect waves-light cyan lighten-1"><i class="material-icons">star</i></a>
         </div>
         <div class="card-content">
-<span class="card-title">Informes validados</span>
-          <p>Obten informes de calidad. Como perito psicólogo utilizo instrumentos (test) psicométricos documentados y validados científicamente.</p>
+<span class="card-title">Experiencia y reputación</span>
+          <p>Como psicólogo clínico he demostrado ser efectivo y profesional. Usted puede visitar mi perfil en doctoralia en donde encontrará cómo pacientes y otros profesionales han evaluado positivamente mi trabajo</p>
         </div>
       </div>
     </div>    
@@ -70,8 +92,8 @@ Template Name: CV
           <a class="btn-floating halfway-fab waves-effect waves-light light-green lighten-1"><i class="material-icons">brightness_6</i></a>
         </div>
         <div class="card-content">
-<span class="card-title">Neutralidad</span>
-          <p>Anula el sesgo a 0%. El proceso de peritaje al basarse en índices estadísticos termina reduciendo el sesgo a nulo.</p>
+<span class="card-title">Etica y rigurocidad</span>
+          <p>Como profesional trabajo desde el enfoque psicodinámico, cuyas técnicas y protocolos cuenta con una numerosa documentación cientifica.</p>
         </div>
       </div>
     </div>    
@@ -81,13 +103,13 @@ Template Name: CV
 <div class="col s12 m4 ">
       <div class="card">
         <div class="card-image amber lighten-4">
-         <i class="large marginer material-icons">timer</i>
+         <i class="large marginer material-icons">settings_backup_restore</i>
           
-          <a class="btn-floating halfway-fab waves-effect waves-light amber lighten-1"><i class="material-icons">timer</i></a>
+          <a class="btn-floating halfway-fab waves-effect waves-light amber lighten-1"><i class="material-icons">settings_backup_restore</i></a>
         </div>
         <div class="card-content">
-<span class="card-title">Brevedad</span>
-          <p>Resultados en tiempo record. Al estar sistematizado el proceso de perito psicólogo. Los informes son entregados en menos de 48hrs.</p>
+<span class="card-title">Re-embolsos y descuentos</span>
+          <p>Como soy un psicólogo validado por la superintendencia de salud, usted podrá reembolsar en su isapre y seguros médicos el valor de la consulta. También atiendo vía bono fonasa.</p>
         </div>
       </div>
     </div>    
@@ -98,58 +120,7 @@ Template Name: CV
     
     
     </div>
-<!-- end Toma de hora -->
-
-<!-- MC -->
-   <div class="blue-grey lighten-2">
-    <div class="container ">
-<div class="banner-text center-align">
-    <h2 class="center-align">Motivos de peritaje</h2>
-    <h5 class="center-align">Conozca los peritajes que realizo</h5>
-</div>
-
-
-<div class="row">
-<div class="col s12 m4 ">
-<ul class="collection with-header">
-        <li class="collection-header valign-wrapper cyan lighten-4"><h4 class="valign-wrapper white-text"><i class="medium material-icons cyan-text">child_care</i>&nbsp; Familia</h4></li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Tuición (cuidado personal) de menores</li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Regimen de visitas y seguimiento</li>
-       <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Consecuencia psicológicas de divorcio</li>
-       <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Privación de patria potestad</li>
-      </ul>
-</div>
-<div class="col s12 m4 ">
- <ul class="collection with-header">
-        <li class="collection-header valign-wrapper light-green lighten-3"><h4 class="valign-wrapper white-text">
-
-<i class="medium material-icons green-text text-lighten-1">work</i>&nbsp; Laboral</h4></li>
-
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i> Secuelas psicológicas tras accidentes</li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i>Simulaciones</li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i>Estrés laboral</li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i>Acoso laboral</li>
-      </ul>
-   </div>  
-<div class="col s12 m4 ">
-<ul class="collection with-header">
-        <li class="collection-header amber lighten-3"> <h4 class="valign-wrapper white-text"><i class="medium material-icons amber-text">error</i>&nbsp; Penal</h4></li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right amber-text lighten-3">send</i>Secuelas psicológicas de la víctima</li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right amber-text lighten-3">send</i>Constatar capacidad volitiva y de consciencia del victimario</li>
-        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right amber-text lighten-3">send</i>Validez del testimonio</li>
-      </ul>
-</div>
-</div>
-<!-- end row -->
-</div>
-</div>
- 
-<!-- End MC-->
-
-
-
-
-<!-- services -->
+    <!-- services -->
    <div class="blue-grey lighten-4">
     <div class="container pbottom-0 center-align">
 <div class="banner-text">
@@ -223,6 +194,65 @@ Nueva Providencia 2155 (Edificio Panorámico - Torre A - Ofic. 604) Providencia 
 </div>
 
  
+<!-- end Toma de hora -->
+
+<!-- MC -->
+   <div class="blue-grey lighten-2">
+    <div class="container ">
+<div class="banner-text center-align">
+    <h2 class="center-align">Motivos de consuta</h2>
+    <h5 class="center-align">Una lista con los motivos más frecuentes</h5>
+</div>
+
+<div class="row">
+    <!-- adulto -->
+
+<div class="col s12 m4 ">
+<ul class="collection with-header">
+        <li class="collection-header valign-wrapper cyan lighten-4"><h4 class="valign-wrapper white-text">
+            <i class="medium material-icons cyan-text">account_box</i>&nbsp; Por sustancia</h4></li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Alcohol</li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Cocaina</li>
+       <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Benzodiazepinas</li>
+       <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Pasta base</li>
+      <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right cyan-text ">send</i>Opioides</li>
+      </ul>
+</div>
+<!-- adolescente -->
+<div class="col s12 m4 ">
+ <ul class="collection with-header">
+        <li class="collection-header valign-wrapper light-green lighten-3"><h4 class="valign-wrapper white-text">
+
+<i class="medium material-icons green-text text-lighten-1">device_hub</i>&nbsp; Tipo de prestaciones </h4></li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i>Psicoterapia en adicciones</li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i>Psicoeducación</li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i>Monitoreo</li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right green-text text-lighten-1">send</i>Orientación a familiares</li>
+      </ul>
+   </div> 
+   <!-- cronicidad -->
+<div class="col s12 m4 ">
+<ul class="collection with-header">
+        <li class="collection-header amber lighten-3"> <h4 class="valign-wrapper white-text">
+            
+            <i class="medium material-icons amber-text">widgets</i>&nbsp; Otros</h4></li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right amber-text lighten-3">send</i>Adicción a la comida</li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right amber-text lighten-3">send</i>Adicción a los video juegos</li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right amber-text lighten-3">send</i>Derivaciones</li>
+        <li class="collection-item avatar valign-wrapper"><i class="material-icons margin-right amber-text lighten-3">send</i>Evaluaciones y pericias</li>
+      </ul>
+</div>
+</div>
+<!-- end row -->
+</div>
+</div>
+ 
+<!-- End MC-->
+
+
+
+
+
     
     <!-- Artículos -(POST) -->
     
@@ -233,8 +263,8 @@ Nueva Providencia 2155 (Edificio Panorámico - Torre A - Ofic. 604) Providencia 
       <div class="teal lighten-3">
     <div class="container center-align">
 <div class="banner-text">
-    <h2>Artículos</h2>
-    <h5>Post sobre mi trabajo como perito psicólogo</h5>
+    <h2>Post</h2>
+    <h5>Artículos de mi autoría sobre psicología</h5>
 </div>
 <!-- card 1 -->
 <div class="row">
@@ -288,8 +318,8 @@ Nueva Providencia 2155 (Edificio Panorámico - Torre A - Ofic. 604) Providencia 
    <div class="teal lighten-5">
     <div class="container center-align">
 <div class="banner-text">
-    <h2>Opiniones sobre los peritajes</h2>
-    <h5>Clientes comentan la experiencia del servicio realizado</h5>
+    <h2>Opiniones sobre Patricio Labarca</h2>
+    <h5>Esto es lo que mis pacientes han comentado</h5>
 </div>
 <!-- card 1 -->
 <div class="row">

@@ -35,17 +35,16 @@
 
 			<?php endif; ?>
 
- <div class="container">
+ <div class="container blog-wrap">
  <div class="row">
       <div class="col m8 s12">
 <!-- contenido -->
 <div class="white content">
 <!-- post title -->
-			<h1>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-			</h1>
+			
 			<!-- /post title -->
-       
+       <p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
+
 			<?php the_content(); // Dynamic Content ?>
 
 
@@ -53,21 +52,21 @@
 <!--  inicia Sub-contenido -->
 
  
-<div class="bg_noise1 subcontenido">
-
-			<!-- post details -->
+<div class="bg_noise1 comment-template subcontenido">
+	<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
+			<!-- post details 
 			
-			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
-			<!-- /post details -->
+		
+		
 
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
 
 			
 
-			<p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
-
+			
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
+-->
 
 			<?php comments_template(); ?>
 
